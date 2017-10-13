@@ -20,7 +20,6 @@ var ModelUpdater = function (deps) {
   if (!deps.dataviewsCollection) throw new Error('dataviewsCollection is required');
 
   this._visModel = deps.visModel;
-  this._mapModel = deps.mapModel;
   this._layerGroupModel = deps.layerGroupModel;
   this._layersCollection = deps.layersCollection;
   this._dataviewsCollection = deps.dataviewsCollection;
